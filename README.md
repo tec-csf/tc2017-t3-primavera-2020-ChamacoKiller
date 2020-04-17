@@ -44,7 +44,7 @@ El problema 4 es sobre un algoritmo de encontrar un indice en un algoritmo orden
 
 El problema 7 es sobre colorear un grafo conexo llamando a asignar un numero a cada vértice de este.
 
-### Programa Divide y Venceras:
+### Programa Divide y Venceras
 
 Planteación del problema: Sea a[1..n] un vector ordenado de enteros todos distintos implementar un algoritmo con la menor complejidad posible en el peor caso capaz de encontrar un indice i tal que 1<=i<=n y a[i]=i, suponiendo que tal indice exista.
 
@@ -90,14 +90,18 @@ Para compilar el programa **Divide y Venceras**
 g++ -o DivideYVenceras DivideYVenceras.cpp -std=c++17
 ```
 Para correr el programa **Divide y Venceras**
+```
 ./DivideYVenceras
+```
 
 Para compilar el programa **Grafos** 
 ```
 g++ -o Grafos Grafos.cpp -std=c++17
 ```
 Para correr el programa **Grafos**
+```
 ./Grafos
+```
 
 **Nota**: Recuerdar siempre estar dentro de **bash** si se esta utilizando el cmd de Windows. 
 
