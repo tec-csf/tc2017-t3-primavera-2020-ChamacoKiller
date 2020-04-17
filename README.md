@@ -36,8 +36,6 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 
 ## 2. Solución
 
-*[Incluya aquí una explicación de la solución implementada]*
-
 Aqui se presentan dos códigos diferentes respecto a los problemas 4 y 7 del 3er Quizz. 
 
 El problema 4 es sobre un algoritmo de encontrar un indice en un algoritmo ordenado en el menor tiempo posible. 
@@ -59,11 +57,9 @@ Planteación del problema: Dado un grafo conexo y un número m > 0, llamamos col
 Dentro de este programa primero que nada se busca crear vertices que nunca sean iguales entre su vertice adyacente, que siempre haya esa diferencia. Para facilitar el desarrollo se piden al usuario directamente forme cuantos vértices, aristas quiere en el grafo asi como los valores correspondientes de cada vértice que une esas aristas. 
 Como resultado el programa despliega la lista de vertices y aristas creados junto con los colores implementados para colorear las aristas de este grafo y poder tener un grafo final coloreado dependiendo las caracteristicas de cada arista (utilizando la menor cantidad de colores posibe). 
 
-La complejidad de este algoritmo es: 
+La complejidad de este algoritmo es:  O(V^2 + E) en el peor caso
 
 ### 2.1 Pasos a seguir para utilizar la aplicación
-
-*[Incluya aquí una guía paso a paso para poder utilizar la aplicación, desde la clonación del repositorio, la compilación del código hasta la ejecución de los ejemplos para visualizar los resultados.]*
 
 Debe considerar ya tener pre-instalados los siguientes softwares/controles para poder compilar y correr los programas respectivos: 
 * git
@@ -106,6 +102,8 @@ Para correr el programa **Grafos**
 **Nota**: Recuerdar siempre estar dentro de **bash** si se esta utilizando el cmd de Windows. 
 
 ## 3. Referencias
+
+**Principalmente notas sobre algoritmo Divide y Venceras vistos en clase.**
 
 1. U, T. [C ] Busqueda Ternaria - Divide y Vencerás. Retrieved April 9, 2020, from http://www.bitacorasoftware.com/2017/03/c-busqueda-ternaria-divide-y-venceras.html
 
