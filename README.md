@@ -44,7 +44,7 @@ El problema 4 es sobre un algoritmo de encontrar un indice en un algoritmo orden
 
 El problema 7 es sobre colorear un grafo conexo llamando a asignar un numero a cada vértice de este.
 
-###Programa Divide y Venceras: 
+######Programa Divide y Venceras: 
 
 Planteación del problema: Sea a[1..n] un vector ordenado de enteros todos distintos implementar un algoritmo con la menor complejidad posible en el peor caso capaz de encontrar un indice i tal que 1<=i<=n y a[i]=i, suponiendo que tal indice exista.
 
@@ -52,7 +52,7 @@ Dentro de este programa la solución brindada busca un indice dentro de un vecto
 
 La complejidad dada de este algoritmo es: 
 
-###Programa Coloreo de Grafo
+######Programa Coloreo de Grafo
 
 Planteación del problema: Dado un grafo conexo y un número m > 0, llamamos colorear el grafo a asignar un número i(1<=i<=m) a cada vértice, de forma que dos vértices adyacentes nunca tengan asignados números iguales. Deseamos implementar un algoritmo que coloree un grafo dado.
 
