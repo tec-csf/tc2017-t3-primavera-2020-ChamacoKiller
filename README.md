@@ -73,7 +73,33 @@ Las instrucciones para poder compilar y correr los programas son las siguientes:
 
 Clonar el repositorio de github desde la terminal/cmd:
 
+```
+git clone https https://github.com/tec-csf/tc2017-t3-primavera-2020-ChamacoKiller.git
+```
+Para dirigirse a esta ruta: 
+```
+cd tc2017-t3-primavera-2020-ChamacoKiller.git
+```
 
+Para ingresar a la carpeta donde estan almacenados los programas: 
+```
+cd sources
+```
+Para compilar el programa **Divide y Venceras** 
+```
+g++ -o DivideYVenceras DivideYVenceras.cpp -std=c++17
+```
+Para correr el programa **Divide y Venceras**
+./DivideYVenceras
+
+Para compilar el programa **Grafos** 
+```
+g++ -o Grafos Grafos.cpp -std=c++17
+```
+Para correr el programa **Grafos**
+./Grafos
+
+**Nota**: Recuerdar siempre estar dentro de **bash** si se esta utilizando el cmd de Windows. 
 
 ## 3. Referencias
 
