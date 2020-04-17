@@ -1,0 +1,8 @@
+compiler: gcc
+language: cpp
+script:
+    - cd sources
+    - g++ -o DivideYVenceras.cpp -std=c++17
+    - ./DivideYVenceras.exe
+    - g++ -o Grafos -std=c++17
+    - ./Grafos.exe
