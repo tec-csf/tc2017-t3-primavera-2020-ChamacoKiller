@@ -48,7 +48,7 @@ Planteación del problema: Sea a[1..n] un vector ordenado de enteros todos disti
 
 Dentro de este programa la solución brindada busca un indice dentro de un vector ordenado (previamente ya escrito en el código) de puros enteros diferentes, donde este indice tiene que ser mayor a la posición 1 y encontrarlo en el mayor tiempo posible. 
 
-La complejidad dada de este algoritmo es: 
+La complejidad dada de este algoritmo es: O(nlogn)
 
 ### Programa Coloreo de Grafo
 
